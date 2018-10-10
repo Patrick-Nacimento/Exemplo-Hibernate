@@ -22,7 +22,7 @@ public class Conexao {
     private StandardServiceRegistry sr = null;
     private SessionFactory factory = null;
     public Transaction transaction = null;
-    private Session session = null;
+    public Session session = null;
     
     public boolean conectar(){
     
