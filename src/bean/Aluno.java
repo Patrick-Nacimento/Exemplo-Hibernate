@@ -14,7 +14,7 @@ public class Aluno {
     private String nome;
     private double nota1, nota2, nota3, nota4;
     private int quantidadeFaltas;
-
+    
     public int getId() {
         return id;
     }

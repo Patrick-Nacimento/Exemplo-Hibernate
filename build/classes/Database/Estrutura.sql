@@ -27,3 +27,5 @@ CREATE TABLE alunos(
     quantidade_faltas INT
 );
 
+
+SELECT * FROM alunos;

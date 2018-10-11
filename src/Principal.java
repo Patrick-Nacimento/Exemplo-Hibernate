@@ -32,20 +32,20 @@ public class Principal {
             transaction = session.getTransaction();
             transaction.begin();
             
-            /*Sistema sistemaDoKleiton = new Sistema();
+            Sistema sistemaDoKleiton = new Sistema();
             sistemaDoKleiton.setNome("Cleitom");
             sistemaDoKleiton.setId(1);
-            session.update(sistemaDoKleiton);*/
+            session.save(sistemaDoKleiton);
             
            /* List resultados = session.createQuery("from Sistema").list();
             for (Sistema sistema : (List<Sistema>)resultados){
                 System.out.println(sistema.getNome());
-            }*/
+            }
             
             Sistema sistema = new Sistema();
             sistema.setId(1);
             session.remove(sistema);
-            
+            */
             
             // INSERT NA TABELA
             transaction.commit();
